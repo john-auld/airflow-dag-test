@@ -2,7 +2,7 @@ from airflow.models import DAG
 from airflow.contrib.operators.s3_list_operator import S3ListOperator
 from datetime import datetime
 
-with DAG(dag_id='s3_list_bucket',
+with DAG(dag_id='s3_list_bucket_2',
          schedule_interval=None,
          start_date=datetime(2019, 6, 7)) as dag:
 
