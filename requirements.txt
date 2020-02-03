@@ -1,2 +1,3 @@
 apache-airflow[password]
+apache-airflow[airflow_login]
 boto3>=1.0
